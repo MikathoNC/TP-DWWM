@@ -6,6 +6,7 @@
       align-items: center;
       height: 60vh;
       width: 28vw;
+      box-shadow: 2px 2px 1px lightgray;
 }
 
 .imageContainer {
@@ -23,5 +24,17 @@
 .title {
       width: fit-content;
       height: 12vh;
-      background-color: red;
+}
+
+@media only screen and (max-width: 600px){
+      .mainContainer {
+            width: 85vw;
+            margin-bottom: 3vh;
+      }
+      .imageContainer {
+            width: 75vw;
+      }
+      .title {
+            font-size: 3vh;
+      }
 }

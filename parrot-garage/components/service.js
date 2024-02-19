@@ -12,7 +12,7 @@ export default function Service({title, imgPath}) {
                   alt='service'
             />
       </div>
-      <h2>{title}</h2>
+      <h2 className={styles.title}>{title}</h2>
     </div>
   )
 }

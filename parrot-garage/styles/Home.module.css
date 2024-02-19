@@ -32,5 +32,9 @@
   .services {
     flex-direction: column;
     overflow: scroll;
+    align-items: center;
+    padding-top: 32vh;
+    height: fit-content;
   }
+  
 }
