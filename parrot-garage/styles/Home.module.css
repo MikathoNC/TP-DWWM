@@ -1,10 +1,8 @@
 .container {
-  height: 90vh;
+  height: 88vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .services {
@@ -12,6 +10,7 @@
   flex-direction: row;
   justify-content: space-around;
   width: 95vw;
+  max-height: 88vh;
 }
 
 .content {
@@ -27,4 +26,11 @@
   font-family: "Rajdhani";
   font-weight: 400;
   margin: 0;
+}
+
+@media only screen and (max-width: 600px){
+  .services {
+    flex-direction: column;
+    overflow: scroll;
+  }
 }
