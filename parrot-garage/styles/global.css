@@ -1,5 +1,9 @@
 :root {
-  
+  --red:#D92332;
+  --light-red:#D94350;
+  --pink:#D9777F;
+  --dark-grey:#262526;
+  --white:#f2f2f2;
 }
 
 body {
@@ -17,4 +21,34 @@ html {
 
 #__next {
   height:100%
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url('../public/fonts/Rajdhani-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url('../public/fonts/Rajdhani-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url('../public/fonts/Rajdhani-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url('../public/fonts/Rajdhani-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url('../public/fonts/Rajdhani-Bold.ttf') format('truetype');
+  font-weight: 700;
 }
