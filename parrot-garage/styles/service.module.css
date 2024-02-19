@@ -1,0 +1,27 @@
+.mainContainer {
+      background-color: var(--white);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      height: 60vh;
+      width: 28vw;
+}
+
+.imageContainer {
+      position: relative;
+      height: 30vh;
+      width: 25vw;
+}
+
+.content {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+}
+
+.title {
+      width: fit-content;
+      height: 12vh;
+      background-color: red;
+}
