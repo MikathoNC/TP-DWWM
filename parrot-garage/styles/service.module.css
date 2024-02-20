@@ -1,17 +1,17 @@
 .mainContainer {
-      background-color: var(--white);
+      background-color: var(--pink);
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
       height: 60vh;
       width: 28vw;
-      box-shadow: 2px 2px 1px lightgray;
+      box-shadow: 2px 2px 1px var(--light-red);
 }
 
 .imageContainer {
       position: relative;
-      height: 30vh;
+      height: 18vw;
       width: 25vw;
 }
 
@@ -23,16 +23,18 @@
 
 .title {
       width: fit-content;
-      height: 12vh;
 }
 
 @media only screen and (max-width: 600px){
       .mainContainer {
             width: 85vw;
+            height: 40vh;
             margin-bottom: 3vh;
       }
       .imageContainer {
             width: 75vw;
+            height: 50vw;
+            margin-top: 2vh;
       }
       .title {
             font-size: 3vh;

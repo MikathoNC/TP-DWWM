@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Service from '../components/service';
+import Footer from '../components/footer';
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -17,10 +19,11 @@ export default function Home() {
           <Service title={"Réparations mécaniques"} imgPath={"/mecanique.jpg"}/>
           <Service title={"Entretien de votre véhicule"} imgPath={"/entretien.jpg"}/>
         </div>
+        <Link className={styles.link} href="/occasion">Nos véhicules d'occasion</Link>
       </main>
 
-      <footer>
-        
+      <footer className={styles.footer}>
+        <Footer/>
       </footer>
 
     </div>
